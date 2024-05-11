@@ -20,7 +20,7 @@ spec:
     matchLabels:
      tier: frontend
      app: nginx
-    template:
+  template:
      metadata:
       labels:
         tier: frontend
