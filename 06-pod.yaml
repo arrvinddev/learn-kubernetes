@@ -19,6 +19,6 @@ spec:
      - name: URL
        value: example.com
        envFrom:
-          - ConfigMapRef:
+          - configMapRef:
               name: special-config
 
