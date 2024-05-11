@@ -14,7 +14,7 @@ kind: Pod
 metadata:
   name: httpd04
   labels:  
-    app: httpd04
+    app: httpd
 spec:
   containers:
   - name: httpd
