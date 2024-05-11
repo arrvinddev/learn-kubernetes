@@ -10,15 +10,12 @@ data:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx06
+  name: nginx05
 spec:
   containers:
   - name: nginx
     image: nginx
-    env: 
-     - name: URL
-       value: example.com
-       envFrom:
-          - configMapRef:
-              name: special-config
+    envFrom:
+      - configMapRef:
+          name: special-config
 
