@@ -18,7 +18,7 @@ spec:
     env: 
      - name: URL
        value: example.com
-    envFrom:
-      - ConfigMapRef:
-          name: cm01
+       envFrom:
+          - ConfigMapRef:
+            name: cm01
 
