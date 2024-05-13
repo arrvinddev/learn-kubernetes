@@ -10,7 +10,7 @@ kind: ServiceAccount
 metadata: 
   name: test 2
 ---
-apiVersion:
+apiVersion: v1
 kind: Pod
 metadata: 
   name: test1
