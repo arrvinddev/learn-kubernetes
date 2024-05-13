@@ -3,7 +3,7 @@ kind: ServiceAccount
 metadata: 
   name: test 1
   annotations:
-    eks.amazonaws.com/role-arn:  #oidc test role arn
+    eks.amazonaws.com/role-arn: arn:aws:iam::119876270834:role/oidc-testn
 ---
 apiVersion:
 kind: ServiceAccount
